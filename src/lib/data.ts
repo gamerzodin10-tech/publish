@@ -67,7 +67,7 @@ export const restaurants: Restaurant[] = [
   },
   {
     id: '3',
-    name: 'Smokey\'s BBQ',
+    name: 'Grill Zilla',
     cuisine: 'American',
     rating: 4.6,
     reviewsCount: 380,
