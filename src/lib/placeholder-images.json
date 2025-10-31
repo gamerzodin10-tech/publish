@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "italian-pasta",
+      "description": "A delicious plate of Italian pasta.",
+      "imageUrl": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpdGFsaWFuJTIwcGFzdGF8ZW58MHx8fHwxNzYxODE3Mzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "italian pasta"
+    },
+    {
+      "id": "sushi-platter",
+      "description": "A fresh and vibrant sushi platter.",
+      "imageUrl": "https://images.unsplash.com/photo-1726824863833-e88146cf0a72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdXNoaSUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzYxODkzNzE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sushi platter"
+    },
+    {
+      "id": "bbq-ribs",
+      "description": "Smoky and tender BBQ ribs.",
+      "imageUrl": "https://images.unsplash.com/photo-1623174078579-594416790e63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiYnElMjByaWJzfGVufDB8fHx8MTc2MTkwMDc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bbq ribs"
+    },
+    {
+      "id": "vegan-salad",
+      "description": "A healthy and colorful vegan salad.",
+      "imageUrl": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2ZWdhbiUyMHNhbGFkfGVufDB8fHx8MTc2MTg1ODY5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegan salad"
+    },
+    {
+      "id": "mexican-tacos",
+      "description": "Authentic Mexican tacos with various fillings.",
+      "imageUrl": "https://images.unsplash.com/photo-1648437595587-e6a8b0cdf1f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZXhpY2FuJTIwdGFjb3N8ZW58MHx8fHwxNzYxODQ1NzAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mexican tacos"
+    },
+    {
+      "id": "indian-curry",
+      "description": "A rich and aromatic Indian curry.",
+      "imageUrl": "https://images.unsplash.com/photo-1710091691802-7dedb8af9a77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjdXJyeXxlbnwwfHx8fDE3NjE4NDIzMjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian curry"
+    },
+    {
+      "id": "hero-image",
+      "description": "A vibrant assortment of food on a table.",
+      "imageUrl": "https://images.unsplash.com/photo-1759167632732-96b19f947e17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmb29kJTIwYXNzb3J0bWVudHxlbnwwfHx8fDE3NjE4NTYwMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food assortment"
+    }
+  ]
 }
