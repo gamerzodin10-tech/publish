@@ -25,7 +25,7 @@ export function Header() {
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <GrillZillaLogo className="h-8 w-8" />
             <span className="hidden font-bold sm:inline-block font-headline text-lg">
-              FoodBuzz
+              GrillZilla
             </span>
           </Link>
           <nav className="flex items-center gap-6 text-sm">
@@ -57,7 +57,7 @@ export function Header() {
               <div className="p-4">
                 <Link href="/" className="flex items-center space-x-2 mb-8">
                   <GrillZillaLogo className="h-8 w-8" />
-                  <span className="font-bold font-headline text-lg">FoodBuzz</span>
+                  <span className="font-bold font-headline text-lg">GrillZilla</span>
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (
@@ -83,7 +83,7 @@ export function Header() {
         <div className="flex flex-1 items-center justify-center md:hidden">
             <Link href="/" className="flex items-center space-x-2">
                 <GrillZillaLogo className="h-8 w-8" />
-                <span className="font-bold font-headline text-lg">FoodBuzz</span>
+                <span className="font-bold font-headline text-lg">GrillZilla</span>
             </Link>
         </div>
         <div className="w-10 md:hidden" />
