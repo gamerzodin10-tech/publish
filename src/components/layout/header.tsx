@@ -1,12 +1,13 @@
 "use client";
 
 import Link from 'next/link';
-import { UtensilsCrossed, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
 import { usePathname } from 'next/navigation';
+import { GrillZillaLogo } from '../grill-zilla-logo';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -22,7 +23,7 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <UtensilsCrossed className="h-6 w-6 text-primary" />
+            <GrillZillaLogo className="h-8 w-8" />
             <span className="hidden font-bold sm:inline-block font-headline text-lg">
               FoodBuzz
             </span>
@@ -55,7 +56,7 @@ export function Header() {
             <SheetContent side="left">
               <div className="p-4">
                 <Link href="/" className="flex items-center space-x-2 mb-8">
-                  <UtensilsCrossed className="h-6 w-6 text-primary" />
+                  <GrillZillaLogo className="h-8 w-8" />
                   <span className="font-bold font-headline text-lg">FoodBuzz</span>
                 </Link>
                 <nav className="flex flex-col gap-4">
@@ -81,7 +82,7 @@ export function Header() {
         {/* Mobile Title */}
         <div className="flex flex-1 items-center justify-center md:hidden">
             <Link href="/" className="flex items-center space-x-2">
-                <UtensilsCrossed className="h-6 w-6 text-primary" />
+                <GrillZillaLogo className="h-8 w-8" />
                 <span className="font-bold font-headline text-lg">FoodBuzz</span>
             </Link>
         </div>
