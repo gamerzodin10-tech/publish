@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { DollarSign, MessageCircle, Utensils } from 'lucide-react';
+import { DollarSign, MessageCircle, Utensils, BrainCircuit } from 'lucide-react';
 import { RestaurantFeedbackForm } from '@/components/ai/restaurant-feedback-form';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
@@ -74,7 +74,7 @@ export default function RestaurantPage({ params }: { params: { id: string } }) {
           <TabsList className="grid w-full grid-cols-3">
             <TabsTrigger value="menu"><Utensils className="w-4 h-4 mr-2" />Menu</TabsTrigger>
             <TabsTrigger value="reviews"><MessageCircle className="w-4 h-4 mr-2" />Reviews</TabsTrigger>
-            <TabsTrigger value="feedback">AI Feedback</TabsTrigger>
+            <TabsTrigger value="feedback"><BrainCircuit className="w-4 h-4 mr-2" />AI Feedback</TabsTrigger>
           </TabsList>
           
           <TabsContent value="menu" className="mt-6">
